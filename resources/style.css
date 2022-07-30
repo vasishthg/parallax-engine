@@ -131,6 +131,7 @@ body{
 
   .ft-txt{
     font-weight: 400;
+
     line-height: 1.4em;
     font-size: 1.3em;
   }
@@ -302,6 +303,10 @@ footer{
   max-width: 6em;
   margin-right: 4em;
   float: right;
+}
+
+.ctn{
+  margin-top: 4em;
 }
 
 @media screen and (max-width:1032px) {
