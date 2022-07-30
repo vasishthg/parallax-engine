@@ -1,0 +1,294 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: white;
+}
+
+.header{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.logo{
+    width: 5%;
+    max-width: 3em;
+}
+
+.links{
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 4em;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: -1.7em;
+    vertical-align: top;
+}
+
+.sign-up{
+    background: #1FB622;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 1em;
+    border: none;
+    margin-top: -4em;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    margin-right: 1em;
+    width: 7em;
+    height: 3.5em;
+    float: right;
+}
+
+.hero{
+    margin-top: 3em;
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    margin-left: 4em;
+    background-color: black;
+    height: 80vh;
+    margin-right: 4em;
+}
+
+.wap{
+    color: #ADF0D1;
+    padding-top: 8em;
+    font-weight: 600;
+    padding-left: 3em;
+}
+
+.aab-ywu{
+    margin-left: 1.7em;
+    font-weight: 400;
+    font-size: 1.7em;
+}
+
+.woir{
+    margin-left: 3em;
+    line-height: 1.6em;
+}
+
+.awd{
+    float: left;
+    margin-left: 3.5em;
+    margin-top: 0;
+    width: 12em;
+    display: block;
+}
+
+.mockupp{
+    position: absolute;
+    top: 8.4em;
+    max-width: 32.8em;
+    pointer-events: none;
+    right: 4.52em;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    border-radius: 3em;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 3em;
+    background: #4f4f4f;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3f3f3f;
+    border-radius: 3em;
+  }
+
+  .sbh{
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: black;
+    color: white;
+    padding: 2em 2em 2em 1em;
+  }
+
+  .feature{
+      color: white;
+      margin-right: 5em;
+      display: inline-block;
+      margin-left: 5em;
+      background: linear-gradient(90deg, black 50%, #1FB622 50%);
+      padding: 3em 2em 5em 2em;
+      border-radius: 1em;
+  }
+
+  .ft-txt{
+    font-weight: 400;
+    line-height: 1.4em;
+  }
+
+  .iphone12{
+    max-width: 35em;
+    position: absolute;
+    right: 19em;
+    margin-top: -25em;
+  }
+  .feature2{
+    color: white;
+    margin-right: 5em;
+    display: inline-block;
+    margin-left: 15em;
+    background: linear-gradient(90deg,  #1FB622 50%, black 50%);
+    padding: 3em 2em 5em 2em;
+    border-radius: 1em;
+    align-items:flex-end;
+}
+
+.ft-txt2{
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.iphone122{
+  max-width: 35em;
+  position: absolute;
+  left: 15em;
+  margin-top: -10em;
+}
+
+.hawd-shesh{
+  width: 25%;
+  margin-left: 4em;
+  display: flexbox;
+  display: inline-block;
+  text-align: center;
+}
+
+.about-us{
+  background: black;
+}
+
+.hawd-img{
+  max-width: 20em;
+  pointer-events: none;
+}
+
+.testimonials{
+  width: 30%;
+  margin-right: 4em;
+  background-color: #1FB622;
+  height: 30em;
+  border-radius: 1em;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+}
+
+.test-img{
+  max-width: 7em;
+  margin-top: 2em;
+}
+
+.uhm{
+  max-width: 7em;
+}
+
+.test-p{
+  margin-right: 2em;
+  color: white;
+  font-weight: 1.7em;
+  font-weight: 500;
+  margin-top: 5em;
+  margin-left: 2em;
+}
+
+.squad{
+  margin-left: 2em;
+  background-color: #1FB622;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+  margin-right: 2em;
+  padding: 2em 2em 2em 2em;
+  color: white;
+  border-radius: 1em;
+  height: 23em;
+}
+
+.awdawd{
+  margin-left: 2em;
+  margin-top: 3em;
+}
+
+.suscrib{
+  color: black;
+  margin-left: 0.8em;
+  margin-top: -0.3em;
+  font-size: 2.3em;
+  font-weight: 600;
+}
+
+#lotr{
+    margin-left: 1.8em;
+    line-height: 0.9em;
+}
+
+.email{
+  width: 35em;
+  border-radius: 0.7em;
+  height: 5em;
+  border: none;
+  margin-top: 1em;
+  font-family: 'Red Hat Display', sans-serif;
+  padding-left: 2em;
+  font-weight: 700;
+  color: black;
+  margin-left: 2em;
+  outline: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.sarscrib{
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 1.1em 2em 1.1em 2em;
+  border-radius: 0.5em;
+  font-family: 'Red Hat Display', sans-serif;
+  letter-spacing: 0.1em;
+  margin-left: -13em;
+  font-weight: 700;
+}
+
+.ioewj{
+  display: inline;
+  position: absolute;
+  margin-top: -32em;
+  max-width: 35em;
+  right: 15em;
+}
+
+.ft-links{
+  display: inline-block ;
+  vertical-align: middle;
+}
+
+.ft-link{
+  color: black;
+  text-decoration: none;
+  display: inline;
+  font-weight: 600;
+  margin-left: 4em;
+}
+footer{
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.dr{
+  max-width: 2em;
+  margin-right: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+}
