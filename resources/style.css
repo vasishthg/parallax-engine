@@ -1,6 +1,7 @@
 body{
     font-family: 'Red Hat Display', sans-serif;
     background-color: white;
+    overflow-x: hidden;
 }
 
 .header{
@@ -76,11 +77,10 @@ body{
 }
 
 .mockupp{
-    position: absolute;
-    top: 8.4em;
-    max-width: 32.8em;
-    pointer-events: none;
-    right: 4.52em;
+  height: 100%;
+  z-index: -1;
+  display: inline;
+  float: right;
 }
 
 ::-webkit-scrollbar {
@@ -104,13 +104,18 @@ body{
     background: #3f3f3f;
     border-radius: 3em;
   }
-
+.supportedby{
+  background-color: black;
+  
+    padding: 3em 3em 3em 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
   .sbh{
     margin-left: 3em;
     margin-right: 3em;
-    background-color: black;
+    display: inline;
     color: white;
-    padding: 2em 2em 2em 1em;
   }
 
   .feature{
@@ -118,9 +123,10 @@ body{
       margin-right: 5em;
       display: inline-block;
       margin-left: 5em;
-      background: linear-gradient(90deg, black 50%, #1FB622 50%);
+      background:black;
       padding: 3em 2em 5em 2em;
       border-radius: 1em;
+      width: 60%;
   }
 
   .ft-txt{
@@ -129,38 +135,16 @@ body{
   }
 
   .iphone12{
-    max-width: 35em;
-    position: absolute;
-    right: 19em;
-    margin-top: -25em;
+    float: right;
+    display: inline;
+    height: 100%;
+    max-width: 20em;
   }
-  .feature2{
-    color: white;
-    margin-right: 5em;
-    display: inline-block;
-    margin-left: 15em;
-    background: linear-gradient(90deg,  #1FB622 50%, black 50%);
-    padding: 3em 2em 5em 2em;
-    border-radius: 1em;
-    align-items:flex-end;
-}
 
-.ft-txt2{
-  font-weight: 400;
-  line-height: 1.4em;
-}
-
-.iphone122{
-  max-width: 35em;
-  position: absolute;
-  left: 15em;
-  margin-top: -10em;
-}
-
+  
 .hawd-shesh{
   width: 25%;
   margin-left: 4em;
-  display: flexbox;
   display: inline-block;
   text-align: center;
 }
@@ -288,7 +272,147 @@ footer{
 .dr{
   max-width: 2em;
   margin-right: 1em;
-  display: inline-block;
+  display: inline;
   vertical-align: middle;
   float: right;
+}
+
+.den{
+  display: inline;
+  vertical-align: middle;
+  max-width: 6em;
+  margin-right: 4em;
+  float: right;
+}
+
+@media screen and (max-width:1032px) {
+  .mm{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1264px) {
+   .hawd-shesh{
+    width: 100% !important;
+    display: block  ;
+    margin-left: 0;
+   }
+}
+
+@media screen and (max-width:989px) {
+   .testimonials{
+    width: 70%;
+    display: block;
+    position: relative;
+    margin-right: 0;
+    margin-bottom: 2em;
+    height: 30em;
+   }
+}
+
+@media screen and (max-width:960px) {
+  .hero{
+    height: 100%;
+    padding-bottom: 2em;
+  }
+  .mockupp{
+    width: 100%;
+    margin-bottom: 3em;
+    display:block;
+  }
+  .woir{
+    margin-right: 2em;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .logo{
+    width: 10%;
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .links{
+    display: inline;
+    margin-top: 1em;
+  }
+
+  .sign-up{
+    margin-top: -5.5em;
+  }
+  .awd{
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .den{
+    display: block;
+    margin-top: 2em;
+    float: auto;
+  }
+  .sbh{
+    width: 100%;
+    display: block;
+  }
+  .supportedby{
+    height: 15em;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .den{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .supportedby{
+    height: 20em;
+  }
+
+  .sbh{
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:836px) {
+  .ft-txt{
+    width: 100%;
+    display: block; 
+  }
+  .ctn{
+    width: 70% !important;
+    display: block;
+  }
+}
+
+@media screen and (max-width:1237px) {
+  .ioewj{
+    right: 5em;
+  }
+}
+@media screen and (max-width:1104px) {
+  .ioewj{
+    right: 2em;
+  }
+}
+@media screen and (max-width:1076px) {
+  .ioewj{
+    display: none;
+ 
+  }
+}
+
+@media screen and (max-width:677px) {
+  .squad{
+    padding-bottom: 10em;
+  }
+  .email{
+    width: 20em;
+  }
+  .sarscrib{
+    margin-left: 2em;
+    margin-top: 2em;
+  }
 }
