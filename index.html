@@ -11,6 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+<div id="particles-js"></div>
+
+<script src="particles.js"></script>
     <div class="preloader" id="preloader">
         <a href="/"><img class="preloaderimg" src="resources/logo.svg"></a>
       </div>
@@ -57,8 +61,8 @@
             <br>            <br>
             
             <div class="feature">
-                    <img src="resources/mockup2.png" alt="" class="iphone12">
-                    <center style="width: 40%; " class="ctn">
+                    <img src="resources/mockup2.png" alt="" class="iphone12" style="float: left;">
+                    <center style="width: 40%; float: right; margin-right: 2em" class="ctn">
                     <h3>Chat with INVESTO</h3>
                     <p class="ft-txt">INVESTO is our very own unique chat bot that is ready to help you at any time of the day. 
 <br><br>
@@ -75,8 +79,8 @@
         </div>
         <br>        <br>
         <div class="feature">
-            <img src="resources/mockup4.png" alt="" class="iphone12">
-            <center style="width: 40%; " class="ctn">
+            <img src="resources/mockup4.png" alt="" class="iphone12" style="float: left;">
+            <center style="width: 40%; float: right; margin-right: 2em;" class="ctn">
             <h3>AI TRACKING</h3>
             <p class="ft-txt">As the world modernises, we want all our users to get in flow with the new style of investing. With AI tracking based on user demand, our AI bot will recommend you stocks that can aid you financially. We will inform the user till when they should hold stock and when they should sell based on their terminal goal. </p>
         </center>
@@ -143,9 +147,9 @@
         <!-- <center> -->
             <div class="ft-links">
                 <a href="" class="ft-link" style="margin-left: 0;">About</a>
-                <a href="" class="ft-link">Forte</a>
-                <a href="" class="ft-link">Projects</a>
-                <a href="" class="ft-link" style="margin-right: 7em;">Contact</a>
+                <a href="#reviews" class="ft-link">Reviews</a>
+                <a href="#features" class="ft-link">Features</a>
+                <a href="#" class="ft-link" style="margin-right: 7em;">Contact</a>
             </div>
             <img src="resources/logo.svg" alt="" style="max-width: 3em; vertical-align: middle; position: absolute; left: 50%; transform: translateX(-50%); margin-top: -0.6em;">
             <p style="display: inline; margin-left: 13.5em;">support@parallaxengine.com</p>
@@ -163,4 +167,7 @@
     $(window).onload= setTimeout(function(){
     $("#preloader").fadeOut(500);
 }, delaylol);
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 </script>
